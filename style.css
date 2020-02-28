@@ -46,18 +46,22 @@ button{
     background-color: #3f51b5;
     color: white;
     font-size: large;
+    outline:none;
 }
+button::-moz-focus-inner {
+    border: 0;
+ }
 
 @media only screen and (max-width: 600px){
     .calculator{
         width: 95vw;
-        height: 85vh;
+        height: 70vh;
     }
     button{
-        width: 15vw;
-        height: 12vh;
+        width: 10vw;
+        height: 8vh;
         border-radius: 50%;
-        margin: 2vw 0vw 0vw 5.5vw;
+        margin: 3vw 0vw 0vw 10vw;
     }
     .operation,.history{
         height: 6vh;
