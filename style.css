@@ -20,6 +20,10 @@
     box-shadow: 0 8px 6px -6px black;
     border-radius: 0.5rem;
 }
+.calculator p {
+    font-size: 4vh;
+    margin-left: 1vw;
+}
 .operation{
     background-color: white;
     height: 5vh;
@@ -43,7 +47,7 @@ button{
     height: 8vh;
     border-radius: 30%;
     margin: 1vw 4.5vw 1vw 4.5vw;
-    background-color: #3f51b5;
+    background-color: #2d55aa;
     color: white;
     font-size: large;
     outline:none;
