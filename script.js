@@ -1,5 +1,5 @@
  //To clear screen
-document.getElementById('expression').innerHTML = "";
+document.getElementById('expression').innerHTML = null;
 
 
 //To display user input
@@ -11,8 +11,8 @@ function setInput(userInput) {
 
 //To clear screen
 document.getElementById('clear-scrn').addEventListener("click", function(){
-    document.getElementById('expression').innerHTML = ""; 
-    document.getElementById('history-text').innerHTML = ""; 
+    document.getElementById('expression').innerHTML = null; 
+    document.getElementById('history-text').innerHTML = null; 
 });
 
 
