@@ -48,6 +48,9 @@ button{
     font-size: large;
     outline:none;
 }
+#eql{
+ background-color: green;
+}
 button::-moz-focus-inner {
     border: 0;
  }
