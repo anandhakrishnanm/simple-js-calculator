@@ -41,7 +41,7 @@
 button{
     width: 5vw;
     height: 8vh;
-    border-radius: 50%;
+    border-radius: 30%;
     margin: 1vw 4.5vw 1vw 4.5vw;
     background-color: #3f51b5;
     color: white;
@@ -54,7 +54,12 @@ button{
 button::-moz-focus-inner {
     border: 0;
  }
-
+ .number{
+     background-color: #119ef0;
+ }
+#clear-scrn{
+    background-color: rgb(248, 42, 27);
+}
 @media only screen and (max-width: 600px){
     .calculator{
         width: 95vw;
@@ -63,7 +68,6 @@ button::-moz-focus-inner {
     button{
         width: 10vw;
         height: 8vh;
-        border-radius: 50%;
         margin: 3vw 0vw 0vw 10vw;
     }
     .operation,.history{
