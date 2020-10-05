@@ -5,7 +5,7 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to right, #7e77e9, #3f51b5);
+    background: rgb(226, 225, 225);
 }
 .calculator{
     position: absolute;
@@ -80,6 +80,7 @@ button::-moz-focus-inner {
     }
     .operation,.history{
         height: 6vh;
+        margin: 0vh 4vw 0vh 2vw;
     }
 
 }
