@@ -22,35 +22,26 @@
     font-size: 4vh;
     margin-left: 0vw;
     overflow: hidden;
+    color: #fff;
 }
 .operation{
-    background-color: white;
+    background-color: #425062;
     height: 7vh;
-    /* margin: 0vw 1vw 0vw 1vw; */
     text-align: right;
     color: #454547;
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+    border-bottom: 2px solid rgb(51, 50, 50);
+    border-left: 2px solid rgb(51, 50, 50);
+    border-right: 2px solid rgb(51, 50, 50);
 }
 .history{
-    background-color: white;
+    background-color: #425062;
     height: 7vh;
-    /* margin: 2vw 1vw 0vw 1vw; */
     text-align: right;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
+    border-top: 2px solid rgb(51, 50, 50);
+    border-left: 2px solid rgb(51, 50, 50);
+    border-right: 2px solid rgb(51, 50, 50);
 }
 
-/* button{
-    width: 5vw;
-    height: 8vh;
-    border-radius: 30%;
-    margin: 1vw 1vw 1vw 1vw;
-    background-color: #2d55aa;
-    color: white;
-    font-size: large;
-    outline:none;
-} */
 button{
     width: 25%;
     background: #425062;
